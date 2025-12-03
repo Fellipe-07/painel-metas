@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    width: 320px; 
+    margin-top: 10px;
+}
+
+
+#formulario input,
+#formulario textarea,
+#formulario select {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #0079E3;
+     border-radius: 5px;
+}
+button:hover{
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #1990f8;
+}
+.erro {
+    color: red;
+    font-size: 14px;
+    height: 18px;
+}
+
+#remover{
+    background: #ff0000d2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#concluir {
+    background: rgb(156, 228, 49);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #a8acab9d;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#lista {
+    width: 320px;
+    margin-top: 10px;
+    background: #ffffff9d;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+    margin: 0 auto;
+     justify-content: center;
+    align-items: center;
+    text-align: center;
+}
