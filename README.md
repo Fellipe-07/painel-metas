@@ -39,7 +39,7 @@ No GitHub Desktop:
 
 # O que Aprendi
 
-  Eu basicamenter revisei tudo que aprendi e juntei tudo em um projoeto só
+  Eu basicamenter revisei tudo que aprendi e juntei tudo em um projeto só
 
 # Autor
 
